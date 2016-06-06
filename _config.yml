@@ -26,3 +26,6 @@ reveal_path: reveal.js/
 markdown: redcarpet
 highlighter: rouge
 markdown_ext: ignoreme
+
+gems:
+  fragment
