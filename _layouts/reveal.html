@@ -14,8 +14,6 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <script type="text/javascript href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></script>
-
 		<link rel="stylesheet" href="{{ site.reveal_path }}css/reveal.css">
 		<link rel="stylesheet" href="{{ site.reveal_theme_path }}{{ site.reveal_theme }}" id="theme">
 
@@ -48,6 +46,7 @@
 		<script src="{{ site.reveal_path }}js/reveal.js"></script>
 
 		<script>
+
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -55,11 +54,16 @@
 				progress: true,
 				history: true,
 				center: true,
+
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: '{{ site.reveal_transition }}', // default/cube/page/concave/zoom/linear/fade/none
+
                 {% if site.reveal_options %}
+
                 {{ site.reveal_options | append:',' }}
+
                 {% endif %}
+
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
 					{ src: '{{ site.reveal_path }}lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -78,6 +82,7 @@
                     {% endif %}
 				]
 			});
+
 		</script>
 
 	</body>

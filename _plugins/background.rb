@@ -1,7 +1,7 @@
 module Jekyll
-
+    
     class RenderBackground < Liquid::Tag
-
+    
         def initialize(tag_name, text, tokens)
             super
             @text = text
