@@ -1,12 +1,150 @@
----
-layout: reveal
-title: not used. Use _config.yml!
----
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-{% for post in site.posts reversed %}
-<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$" data-notes="^Note:">
-<script type="text/template">
-{{ post.content }}
-</script>
-</section>
-{% endfor %}
+        <title>Intersections of Tech</title>
+
+				<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/simple.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match(/print-pdf/gi)
+                ? 'css/print/pdf.css'
+                : 'css/print/paper.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <section>
+                  <h1>The Intersections of Technology</h1>
+									<hr>
+									<h3>Tanya Powell / <a href="https://twitter.com/tanya_powell">@tanya_powell</a></h3>
+                </section>
+                <!-- End of Slide 1 -->
+
+                <!-- Slide 2 -->
+                <section>
+
+                    <section>
+                      <h2>Before we begin you may be wondering...who is this lady standing in front of you?</h2>
+											<i class="fa fa-sort-desc fa-5x" aria-hidden="true"></i>
+                    </section>
+
+                    <section>
+											<img src="http://placekitten.com/250/250" alt="" />
+											<ul>
+												<li class="fragment fade-in">I'm a Software Engineer at <a href="http://www.gamesyscorporate.com/"> Gamesys</a></li>
+												<li class="fragment fade-in">I volunteer at <a href="http://empowerhack.io/">EmpowerHack</a></li>
+												<li class="fragment fade-in">I'm a Board Member for <a href="http://www.womenhackfornonprofits.com/">Women Hack For Non-Profits</a></li>
+												<li class="fragment fade-in">I volunteer at <a href="http://chayn.co/">Chayn</a></li>
+												<li class="fragment fade-in">I'm one half of an amazing podcast called <a href="http://tanyapowell.co.uk/large-gt/">A Large G&T</a></li>
+											</ul>
+                    </section>
+                </section>
+                <!-- End of Slide 2 -->
+
+								<!-- Slide 3 -->
+								<section>
+									<h2>Let's talk gender and racial diversity</h2>
+									<ul>
+										<li>When it comes to diversity, gender and race appear to be in two separate silos</li>
+										<li>Very rarely have I heard talk of women of colour at diversity in tech events</li>
+										<li>Some of you may think we are all women and race has nothing to do with it because <b><i>"I don't see colour"</i></b></li>
+										<li>Women of colour may think, <b><i>"why am I not being represented at these groups that aim for the inclusion of all?"</i></b></li>
+									</ul>
+								</section>
+								<!-- End of Slide 3 -->
+
+
+								<!-- Slide 4 -->
+								<section>
+									<h2>Let's Break it Down</h2>
+									<ul>
+										<li>According to the <b>2011 Census</b>, people from a BAME (Black, Asian and Minority Ethnic) background formed 40.2% of the Greater London population. That's quite a big chunk of us! Yet we <b><i>do not</i></b> occupy 40% of technology roles in London</li>
+										<li>A late 2015 <a href="https://creativeskillset.org/assets/0002/0952/2015_Creative_Skillset_Employment_Survey_-_March_2016_Summary.pdf">Creative Skillset Employment Survey</a> showed that 19% of roles in the games industry are occupied by Women. Which is higher than the national average</li>
+										<li>The same survey showed that only 4% of roles in the games industry are represented by BAME people (the national average is 10%)</li>
+									</ul>
+								</section>
+								<!-- End of Slide 4 -->
+
+								<!-- Slide 5 -->
+								<section>
+									<h2>Quick Question</h2>
+									<ul>
+										<li>What percentage of these roles are occupied by BAME women?</li>
+										<li class="fragment fade-in">We don't know</li>
+									</ul>
+									<img class="fragment fade-in" src="https://i.ytimg.com/vi/qG717LVerPk/maxresdefault.jpg" alt="" style="height: 30%; width: 30%;" />
+								</section>
+								<!-- End of Slide 5 -->
+
+								<!-- Slide 6 -->
+								<section>
+									<section>
+										<h2>What is Intersectionality?</h2>
+										<blockquote>
+											The view that women experience oppression in varying configurations and in varying degrees of intensity. Cultural patterns of oppression are not only interrelated, but are bound together and influenced by the intersectional systems of society. Examples of this include race, gender, class, ability, and ethnicity.
+										</blockquote>
+										<i class="fa fa-sort-desc fa-5x" aria-hidden="true"></i>
+									</section>
+									<section>
+										That was alot of words! Let me explain with a picture
+										<img src="img/intersectionality.jpg" alt="" />
+									</section>
+								</section>
+								<!-- End of Slide 6 -->
+
+								<!-- Slide 7 -->
+								<section>
+									<h2>Do BAME Women Study STEM subjects?</h2>
+									The <a href="#">Business in the Community</a> factsheet about Ethnic Minorities studying STEM subjects for the academic year of 2009/10 showed
+									<ul>
+										<li>Only <b><i>18%</i></b> of all Women studying a STEM subject were from a BAME background</li>
+									</ul>
+								</section>
+								<!-- End of Slide 7 -->
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    {
+                        src: 'plugin/markdown/marked.js'
+                    }, {
+                        src: 'plugin/markdown/markdown.js'
+                    }, {
+                        src: 'plugin/notes/notes.js',
+                        async: true
+                    }, {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function() {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    }
+                ]
+            });
+        </script>
+    </body>
+</html>
